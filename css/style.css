@@ -1,0 +1,49 @@
+﻿/* -- Default styles -- */
+.text-center {
+    text-align: center;             /* -- Выравнивание по центру -- */
+}
+.text-uppercase {
+    text-transform: uppercase;      /* -- Текст большими буквами -- */
+}
+.paragraph-align{
+    text-indent: 25pt; text-align: justify;   /* -- Выравнивание абзаца -- */
+}
+
+/* -- Custom styles -- */
+.page-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;                                       /* -- Заголовок страницы -- */
+    font-size: 20pt; 
+    line-height: 2px;
+    color: blue; 
+}
+.page-subtitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;                                       /* -- Подзаголовок страницы -- */
+    font-size: 16pt; 
+    color: brown; 
+}
+.wrapper {
+    height: 50px;                                    /* -- Пустой блок -- */
+}
+.wrapper-describe-container {
+    height: 180px;                                   /* -- Обертка конейнера описания телефона -- */
+}
+.describe-gadget {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt; 
+    border-left: 4px solid yellowgreen;
+    padding-left: 5px;
+    padding-top: 5px;                                        /* -- Описание телефона -- */
+    color: black;
+    margin: 0px;
+}
+.table-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;                              /* -- Название табллицы -- */
+    line-height: 15px; 
+    font-size: 12pt;
+}
+.wrapper-describe-container1 {
+    height: 110px;                                   /* -- Обертка конейнера описания второго телефона -- */
